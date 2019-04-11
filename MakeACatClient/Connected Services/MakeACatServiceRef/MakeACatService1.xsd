@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/MakeACatWCFServiceApplication" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/MakeACatWCFServiceApplication" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:16612/MakeACatService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/System.Drawing" />
+  <xs:simpleType name="CatBreed">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Abyssinian" />
+      <xs:enumeration value="American_Shorthair" />
+      <xs:enumeration value="Bengal" />
+      <xs:enumeration value="British_Longhair" />
+      <xs:enumeration value="Maine_Coon" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="CatBreed" nillable="true" type="tns:CatBreed" />
+  <xs:simpleType name="GenderType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Male" />
+      <xs:enumeration value="Female" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="GenderType" nillable="true" type="tns:GenderType" />
+  <xs:complexType name="Cat">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Age" type="xs:int" />
+      <xs:element minOccurs="0" name="Breed" type="tns:CatBreed" />
+      <xs:element minOccurs="0" name="Gender" type="tns:GenderType" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/System.Drawing" minOccurs="0" name="Photo" nillable="true" type="q1:Bitmap" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Cat" nillable="true" type="tns:Cat" />
+  <xs:complexType name="CatList">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Cat" nillable="true" type="tns:Cat" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CatList" nillable="true" type="tns:CatList" />
+</xs:schema>

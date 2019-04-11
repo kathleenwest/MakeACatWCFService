@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="df4e2b86-9fb6-40fd-821e-b5065650efcb" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:16612/MakeACatService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="MakeACatService.xsd" MetadataType="Schema" ID="05651288-7efe-4715-966b-f20d8d16a56f" SourceId="1" SourceUrl="http://localhost:16612/MakeACatService.svc?xsd=xsd1" />
+    <MetadataFile FileName="MakeACatService1.xsd" MetadataType="Schema" ID="0ac82e7a-f2ad-4f85-92a0-15994795c262" SourceId="1" SourceUrl="http://localhost:16612/MakeACatService.svc?xsd=xsd2" />
+    <MetadataFile FileName="MakeACatService.disco" MetadataType="Disco" ID="69c1f24b-9409-4745-9be9-2205236b7628" SourceId="1" SourceUrl="http://localhost:16612/MakeACatService.svc?disco" />
+    <MetadataFile FileName="MakeACatService2.xsd" MetadataType="Schema" ID="a5c1f473-59a3-436f-be43-5010b3f3aee2" SourceId="1" SourceUrl="http://localhost:16612/MakeACatService.svc?xsd=xsd3" />
+    <MetadataFile FileName="MakeACatService3.xsd" MetadataType="Schema" ID="49c12644-ab58-41d0-b7b2-fb1d704c5d8f" SourceId="1" SourceUrl="http://localhost:16612/MakeACatService.svc?xsd=xsd0" />
+    <MetadataFile FileName="MakeACatService.wsdl" MetadataType="Wsdl" ID="70580d9d-bbc5-48f2-84ea-796738185800" SourceId="1" SourceUrl="http://localhost:16612/MakeACatService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

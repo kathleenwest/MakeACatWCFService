@@ -1,0 +1,10 @@
+C:\Users\KathleenWest\Dropbox\Career\GitHub Repositories\MakeACatWCFServiceApplication\MakeACatClient\bin\Release\MakeACatClient.exe.config
+C:\Users\KathleenWest\Dropbox\Career\GitHub Repositories\MakeACatWCFServiceApplication\MakeACatClient\bin\Release\MakeACatClient.exe
+C:\Users\KathleenWest\Dropbox\Career\GitHub Repositories\MakeACatWCFServiceApplication\MakeACatClient\bin\Release\MakeACatClient.pdb
+C:\Users\KathleenWest\Dropbox\Career\GitHub Repositories\MakeACatWCFServiceApplication\MakeACatClient\obj\Release\MakeACatClient.frmMain.resources
+C:\Users\KathleenWest\Dropbox\Career\GitHub Repositories\MakeACatWCFServiceApplication\MakeACatClient\obj\Release\MakeACatClient.Properties.Resources.resources
+C:\Users\KathleenWest\Dropbox\Career\GitHub Repositories\MakeACatWCFServiceApplication\MakeACatClient\obj\Release\MakeACatClient.csproj.GenerateResource.cache
+C:\Users\KathleenWest\Dropbox\Career\GitHub Repositories\MakeACatWCFServiceApplication\MakeACatClient\obj\Release\MakeACatClient.csproj.CoreCompileInputs.cache
+C:\Users\KathleenWest\Dropbox\Career\GitHub Repositories\MakeACatWCFServiceApplication\MakeACatClient\obj\Release\MakeACatClient.exe
+C:\Users\KathleenWest\Dropbox\Career\GitHub Repositories\MakeACatWCFServiceApplication\MakeACatClient\obj\Release\MakeACatClient.pdb
+C:\Users\KathleenWest\Dropbox\Career\GitHub Repositories\MakeACatWCFServiceApplication\MakeACatClient\obj\Release\MakeACatClient.csprojAssemblyReference.cache

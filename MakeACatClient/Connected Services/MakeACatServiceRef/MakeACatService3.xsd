@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:16612/MakeACatService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/MakeACatWCFServiceApplication" />
+  <xs:element name="MakeACat">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="name" nillable="true" type="xs:string" />
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/MakeACatWCFServiceApplication" minOccurs="0" name="breed" type="q1:CatBreed" />
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/MakeACatWCFServiceApplication" minOccurs="0" name="gender" type="q2:GenderType" />
+        <xs:element minOccurs="0" name="age" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="MakeACatResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/MakeACatWCFServiceApplication" minOccurs="0" name="MakeACatResult" nillable="true" type="q3:Cat" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="MakeCats">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="MakeCatsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/MakeACatWCFServiceApplication" minOccurs="0" name="MakeCatsResult" nillable="true" type="q4:CatList" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

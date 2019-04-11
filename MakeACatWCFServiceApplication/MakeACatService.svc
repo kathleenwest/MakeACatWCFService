@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="MakeACatWCFServiceApplication.MakeACatService" CodeBehind="MakeACatService.svc.cs" %>
