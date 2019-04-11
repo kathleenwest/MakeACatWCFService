@@ -3,7 +3,7 @@
 WCF “Make a Cat” Service Application & Client "Tester" Windows Form Application
 
 Project Blog Article here: 
-
+https://portfolio.katiegirl.net/2019/04/11/wcf-make-a-cat-service-application-client-tester-windows-form-application/
 
 
 About
